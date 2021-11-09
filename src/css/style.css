@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+}
+
+img {
+    box-shadow: 5px 5px 5px 2px #4444447a;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+.container_img,
+.container_stars {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.star-comic {
+    font-size: 30px;
+    padding: 5px;
+    transform: scale(1);
+    transition: 0.3s transform;
+}
+
+.star-completed {
+    color: #feb300;
+}
+
+.star-incompleted {
+    color: gray;
+}
+
+.star-comic:hover {
+    transform: scale(1.5);
+}
